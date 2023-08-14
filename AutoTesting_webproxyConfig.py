@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 requests.packages.urllib3.disable_warnings()
 
 
-df = pd.read_excel(r'C:\Users\darren.lin\Desktop\NLD市场域名绑定申请(代理碼) (新SLB對應表)0220.xlsx',sheet_name='test') 
+df = pd.read_excel(r'C:\Users\darren.lin\Desktop\市场域名绑定申请(代理碼) (新SLB對應表)0220.xlsx',sheet_name='test') 
 Domain_lists=df['IP'].tolist()
 
 for i in Domain_lists:
